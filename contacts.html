@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-icons/font/bootstrap-icons.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-md-2 bg-dark text-white d-flex flex-column justify-content-between p-3 vh-100">
+                <div>
+                    <h5 class="mb-4 text-white d-flex align-items-center">
+                        <img src="static/icons/bootstrap-logo.svg" alt="Bootstrap Logo" width="24" height="24" class="me-2">
+                        Меню
+                    </h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link text-white bg-primary border border-white rounded" href="index.html">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="category.html">Категории</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Заказы</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="contacts.html">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="nav flex-column">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">
+                                Пользователь
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Профиль</a></li>
+                                <li><a class="dropdown-item" href="#">Выход</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <main class="col-md-10 px-4">
+                <div class="text-center mt-4 mb-5">
+                    <h2 class="mb-3">Контакты</h2>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-md-5">
+                        <div class="card text-bg-secondary">
+                            <div class="card-body">
+                                <form>
+                                    <h4 class="mb-4">Оставьте заявку</h4>
+
+                                    <label class="form-label">Имя</label>
+                                    <input type="text" class="form-control mb-3" placeholder="Введите ваше имя">
+
+                                    <label class="form-label">Почта</label>
+                                    <div class="input-group mb-3">
+                                        <span class="input-group-text bg-light">@</span>
+                                        <input type="email" class="form-control" placeholder="Ваш email">
+                                    </div>
+
+                                    <label class="form-label">Сообщение</label>
+                                    <textarea class="form-control mb-4" rows="3" placeholder="Ваше сообщение"></textarea>
+
+                                    <button type="submit" class="btn btn-light w-100">Отправить</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-5">
+                        <div class="card border-0">
+                            <div class="card-body">
+                                <h4 class="mb-4">Наши контакты</h4>
+                                <p class="text-muted">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                                Integer vulputate tincidunt metus ut varius.<br>
+                                Mauris et turpis eros. Curabitur vehicula sem non ligula venenatis,<br>
+                                at congue velit iaculis. Nulla euismod venenatis tincidunt.<br>
+                                Aenean semper imperdiet libero posuere tempor.<br>
+                                Vestibulum fringilla vulputate felis quis ornare.<br>
+                                Nullam consectetur interdum turpis, vel iaculis nibh sollicitudin eu.<br>
+                                Maecenas cursus dui in ornare luctus. Duis pretium ex vitae egestas elementum.<br>
+                                Nunc maximus est sed mi sagittis, quis tincidunt est dapibus.<br>
+                                Cras aliquet fermentum ultrices. Praesent ac dapibus arcu.<br>
+                                Sed id metus quis magna pulvinar interdum eget ut est.<br>
+                                Mauris egestas vestibulum turpis.<br>
+                                Integer id ante mollis, gravida sapien sed, bibendum mi.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="static/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
